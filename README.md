@@ -9,7 +9,7 @@
 ⦁  Changing mac address
 
 # Installation Guide
-⦁  git clone
+⦁  git clone https://github.com/Vigneshcss/WiFi-AutoPilot.git
 
 ⦁  cd WiFi-AutoPilot
 
