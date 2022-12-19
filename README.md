@@ -13,6 +13,8 @@
 
 ⦁  cd WiFi-AutoPilot
 
+⦁ ls
+
 ⦁  chmod +x setup.sh WiFi-AutoPilot.sh
 
 ⦁ ./setup.sh
