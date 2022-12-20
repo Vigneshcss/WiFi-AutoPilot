@@ -1,3 +1,10 @@
+# Requirements
+ You need an external WiFi Adapter that supports Monitor Mode and Packet Injection Mode
+ 
+ Here the List of some WiFi Adapters that supports Monitor Mode and Packet Injection Mode
+ 
+⦁ https://null-byte.wonderhowto.com/how-to/buy-best-wireless-network-adapter-for-wi-fi-hacking-2019-0178550/
+ 
 # WiFi-AutoPilot
 ⦁  WiFi-AutoPilot is a WiFi Automation Tool for Ethical Hackers and Pen Testers
 
@@ -8,18 +15,18 @@
 
 ⦁  Changing mac address
 
-# Installation Guide
-⦁  git clone https://github.com/Vigneshcss/WiFi-AutoPilot.git
+# Installation Guide [KALI]
+⦁ git clone https://github.com/Vigneshcss/WiFi-AutoPilot.git
 
-⦁  cd WiFi-AutoPilot
+⦁ cd WiFi-AutoPilot
 
 ⦁ ls
 
-⦁  chmod +x setup.sh WiFi-AutoPilot.sh
+⦁ chmod +x setup.sh WiFi-AutoPilot.sh
 
 ⦁ ./setup.sh
 
-⦁  ./WiFi-AutoPilot.sh
+⦁ ./WiFi-AutoPilot.sh
 
 # Screenshot
 ⦁ WiFi AutoPilot Options
