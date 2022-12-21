@@ -22,7 +22,6 @@ echo -e "  \/  \/ |_\/    |_|     \_/ \_/\__,_|\__\___/\/    |_|_|\___/ \__| 1.0
 echo ""
 echo -e "	                                  ${CYAN}Credits:${NONE} ${YELLOW}Vignesh.S${NONE}"   
 echo -e "	                                           ${YELLOW}Jayanth.K${NONE}"
-echo ""
 }
 	{ clear; banner; echo; }
 
@@ -55,12 +54,12 @@ menu(){
 		echo ""
 		echo -e "${NONE}-->Use ${CYAN}iwconfig${NONE} command to know your WiFi Adapter ID"
 		echo ""
-		echo "============================================================"
 		echo -e "${GREEN}Select any option: ${NONE}"
 		select1
 }
 select1() {
 		read options
+		clear
 		if [[ $options == 1 ]]; then
 			echo "============================================================"
 			echo ""
@@ -80,6 +79,7 @@ select1() {
 				echo -e "${RED}Enter your WiFi Adapter ID: (Ex: wlan0)${NONE}"
 				read wlan_id
 				echo "============================================================"
+				clear
 				sudo ifconfig $wlan_id down
 				echo -e $wlan_id "${PURPLE}Interface down${NONE}"
 				sleep 1
@@ -105,11 +105,13 @@ select1() {
 					monitor
 					menu	
 				fi
+			clear
 			elif [[ $options2 == 2 ]]; then
 				echo "============================================================"
 				echo -e "${RED}Enter your WiFi Adapter ID: (Ex: wlan0)${NONE}" 
 				read wlan_id2
 				echo "============================================================"
+				clear
 				sudo ifconfig $wlan_id2 down
 				echo -e $wlan_id "${PURPLE}Interface down${NONE}"
 				sleep 1
@@ -144,6 +146,7 @@ select1() {
 				banner
 				menu
 			fi
+		clear
 		elif [[ $options == 2 ]]; then
 			echo "============================================================"
 			echo ""
@@ -167,6 +170,7 @@ select1() {
 				echo -e "${RED}Enter your WiFi Adapter ID: (Ex: wlan0)${NONE}"
 				read wlan_id
 				echo "============================================================"
+				clear
 				sudo ifconfig $wlan_id down
 				echo -e $wlan_id "${PURPLE}Interface down${NONE}"
 				sleep 1
@@ -196,6 +200,7 @@ select1() {
 				echo -e "${RED}Enter your WiFi Adapter ID: (Ex: wlan0)${NONE}"
 				read wlan_id
 				echo "============================================================"
+				clear
 				echo ""
 				sudo ifconfig $wlan_id down
 				echo -e $wlan_id "${PURPLE}interface down${NONE}"
@@ -229,6 +234,7 @@ select1() {
 				echo -e "${RED}Enter your WiFi Adapter ID: (Ex: wlan0)${NONE}"
 				read wlan_id
 				echo "============================================================"
+				clear
 				macchanger -s $wlan_id
 				echo "============================================================"
 				echo -e "${CYAN}Current MAC Address:${NONE}"
@@ -250,6 +256,7 @@ select1() {
 				echo -e "${RED}Enter your WiFi Adapter ID: (Ex: wlan0)${NONE}"
 				read wlan_id
 				echo "============================================================"
+				clear
 				sudo ifconfig $wlan_id down
 				echo -e $wlan_id "${PURPLE}Interface down${NONE}"
 				sleep 2
