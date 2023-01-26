@@ -20,8 +20,8 @@ echo -e "\ \/  \/ / |/ _\ | |_____ //_\|  | | | __/ _ \ / /_)/ | |/ _ \| __|"
 echo -e " \  /\  /| / /   | |_____/  _  \ |_| | || (_) / ___/| | | (_) | |_ "
 echo -e "  \/  \/ |_\/    |_|     \_/ \_/\__,_|\__\___/\/    |_|_|\___/ \__| 1.0${NONE}"
 echo ""
-echo -e "	                                  ${CYAN}Credits:${NONE} ${YELLOW}Vignesh.S${NONE}"   
-echo -e "	                                           ${YELLOW}Jayanth.K${NONE}"
+echo -e "	                                  ${CYAN}Credits:${NONE} ${YELLOW}Vignesh${NONE}"   
+echo -e "	                                           ${YELLOW}Jayanth${NONE}"
 }
 	{ clear; banner; echo; }
 
@@ -44,7 +44,7 @@ menu(){
 	echo ""
 	start= echo -e "${YELLOW}1.WiFi Monitor Modes"
 		echo ""
-		echo "2.Change WiFi Mac Address" 
+		echo "2.MAC Address Spoofing" 
 		echo ""
 		echo "3.Contact US"
 		echo ""
@@ -150,7 +150,7 @@ select1() {
 		elif [[ $options == 2 ]]; then
 			echo "============================================================"
 			echo ""
-			echo -e "${BOLD}${CYAN}Change WiFi MAC Address:${NONE}"
+			echo -e "${BOLD}${CYAN}MAC Address Spoofing:${NONE}"
 			echo ""
 			echo -e "${YELLOW}1.Change MAC Address to Random"
 			echo ""
@@ -292,9 +292,9 @@ select1() {
 			fi	
 	elif [[ $options == 3 ]]; then
 		echo "============================================================"
-		echo -e "${YELLOW} Author    ${RED}:  ${CYAN}Vignesh.S"
-		echo -e "${YELLOW} Author    ${RED}:  ${CYAN}Jayanth.K"
-		echo -e "${YELLOW} Github    ${RED}:  ${CYAN}https://github.com/..."
+		echo -e "${YELLOW} Author    ${RED}:  ${CYAN}Vignesh"
+		echo -e "${YELLOW} Author    ${RED}:  ${CYAN}Jayanth"
+		echo -e "${YELLOW} Github    ${RED}:  ${CYAN}https://github.com/vigneshcss"
 		echo -e "${YELLOW} instagram ${RED}:  ${CYAN}https://instagram.com/vigneshcss?igshid=N2ZiY2E3YmU=${NONE}"
 		echo "============================================================"
 		echo -e "${RED}Warning:${NONE}"
